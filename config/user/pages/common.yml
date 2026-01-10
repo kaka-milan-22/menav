@@ -86,6 +86,33 @@ categories:
         url: https://excalidraw.com
         icon: fas fa-pencil-alt
         description: 手绘风格图表工具
+  - name: 云服务平台
+    icon: fas fa-cloud
+    sites:
+      - name: AWS
+        url: https://aws.amazon.com
+        icon: fab fa-aws
+        description: 亚马逊云服务
+      - name: Azure
+        url: https://azure.microsoft.com
+        icon: fab fa-microsoft
+        description: 微软云平台
+      - name: Google Cloud
+        url: https://cloud.google.com
+        icon: fab fa-google
+        description: 谷歌云平台
+      - name: Cloudflare
+        url: https://www.cloudflare.com
+        icon: fas fa-cloud
+        description: CDN与安全服务
+      - name: Vercel
+        url: https://vercel.com
+        icon: fas fa-server
+        description: 前端部署平台
+      - name: Netlify
+        url: https://www.netlify.com
+        icon: fas fa-globe
+        description: 静态网站托管
   - name: 学习资源
     icon: fas fa-graduation-cap
     sites:
@@ -128,30 +155,4 @@ categories:
         url: https://www.canva.com
         icon: fas fa-paint-brush
         description: 在线平面设计
-  - name: 云服务平台
-    icon: fas fa-cloud
-    sites:
-      - name: Cloudflare
-        url: https://www.cloudflare.com
-        icon: fas fa-cloud
-        description: CDN与安全服务
-      - name: Vercel
-        url: https://vercel.com
-        icon: fas fa-server
-        description: 前端部署平台
-      - name: Netlify
-        url: https://www.netlify.com
-        icon: fas fa-globe
-        description: 静态网站托管
-      - name: AWS
-        url: https://aws.amazon.com
-        icon: fab fa-aws
-        description: 亚马逊云服务
-      - name: Azure
-        url: https://azure.microsoft.com
-        icon: fab fa-microsoft
-        description: 微软云平台
-      - name: Google Cloud
-        url: https://cloud.google.com
-        icon: fab fa-google
-        description: 谷歌云平台
+        
