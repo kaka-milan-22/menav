@@ -18,7 +18,7 @@ categories:
         description: 全球最大的搜索引擎
       - name: ChatGPT
         url: https://chat.openai.com
-        icon: fas fa-ChatGPT
+        icon: fab fa-chatgpt
         description: AI智能助手
       - name: Gemini
         url: https://gemini.google.com/app
