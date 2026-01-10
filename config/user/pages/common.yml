@@ -43,7 +43,11 @@ categories:
       - name: Coingeco
         url: https://www.coingecko.com/
         icon: fab fa-Coingeco
-        description: Cryptocurrency Prices, Charts, and Crypto Market Cap
+        description: Cryptocurrency Prices
+      - name: Hydration
+        url: https://app.hydration.net/trade/swap 
+        icon: fab fa-Hydration
+        description: An Ocean of Liquidity
   - name: 学习资源
     icon: fas fa-graduation-cap
     sites:
