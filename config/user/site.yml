@@ -4,7 +4,7 @@
 # 网站基本信息
 title: MeNav
 description: Personal Navigation Station
-author: rbetree
+author: Kaka 
 favicon: menav.svg
 logo_text: MeNav
 
@@ -56,8 +56,8 @@ fonts:
 profile:
   # 注意：首页（导航第一项）标题区优先使用 profile.title/profile.subtitle
   # 因此建议把首页希望展示的文案写在这里，避免“改了 pages/<首页id>.yml 但首页不生效”的误会
-  title: Hello,
-  subtitle: Welcome to My Navigation
+  title: Hello
+  subtitle: Welcome to Kaka's Navigation Station
 
 # RSS（Phase 2）：用于 articles 页面文章聚合
 # 说明：
