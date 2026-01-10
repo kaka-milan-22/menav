@@ -40,6 +40,10 @@ categories:
         url: https://twitter.com
         icon: fab fa-twitter
         description: 社交媒体平台
+      - name: Coingeco
+        url: https://www.coingecko.com/
+        icon: fab fa-Coingeco
+        description: Cryptocurrency Prices, Charts, and Crypto Market Cap
   - name: 学习资源
     icon: fas fa-graduation-cap
     sites:
