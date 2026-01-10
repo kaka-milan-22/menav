@@ -48,6 +48,10 @@ categories:
         url: https://app.hydration.net/trade/swap 
         icon: fab fa-Hydration
         description: An Ocean of Liquidity
+      - name: Virtual Private Network
+        url: https://restless-water-ece9.kakazhang10.workers.dev/
+        icon: fas fa-user-secret
+        description: 匿名网络服务
   - name: 学习资源
     icon: fas fa-graduation-cap
     sites:
