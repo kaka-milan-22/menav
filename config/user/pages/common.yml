@@ -22,7 +22,7 @@ categories:
         description: AI智能助手
       - name: Gemini
         url: https://gemini.google.com/app
-        icon: fas fa-gemini
+        icon: fas fa-Gemini
         description: Google AI
       - name: GitHub
         url: https://www.github.com
