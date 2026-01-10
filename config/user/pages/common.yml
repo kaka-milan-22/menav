@@ -12,31 +12,26 @@ categories:
   - name: 置顶
     icon: fas fa-star # 分类图标
     sites:
-      - name: Linux.do # 站点名称
-        url: https://linux.do/ # http/https URL（favicon 模式将尝试加载站点图标）
-        icon: fab fa-linux # 手动图标：manual 模式使用；favicon 模式下作为回退
-        description: 新的理想型社区 # 站点描述
-      - name: Menav
-        url: https://rbetree.github.io/menav
-        icon: fas fa-star
-        description: 个人导航站
-        faviconUrl: assets/menav.svg
       - name: Google
         url: https://www.google.com
         icon: fab fa-google
         description: 全球最大的搜索引擎
-      - name: GitHub
-        url: https://www.github.com
-        icon: fab fa-github
-        description: 代码托管平台
-      - name: Stack Overflow
-        url: https://stackoverflow.com
-        icon: fab fa-stack-overflow
-        description: 程序员问答社区
       - name: ChatGPT
         url: https://chat.openai.com
         icon: fas fa-robot
         description: AI智能助手
+      - name: Gemini
+        url: https://https://gemini.google.com/app
+        icon: fas fa-gemini
+        description: Google AI
+      - name: GitHub
+        url: https://www.github.com
+        icon: fab fa-github
+        description: 代码托管平台
+      - name: Cloudflare
+        url: https://www.cloudflare.com
+        icon: fas fa-cloud
+        description: CDN与安全服务
       - name: YouTube
         url: https://www.youtube.com
         icon: fab fa-youtube
@@ -45,10 +40,6 @@ categories:
         url: https://twitter.com
         icon: fab fa-twitter
         description: 社交媒体平台
-      - name: Reddit
-        url: https://www.reddit.com
-        icon: fab fa-reddit
-        description: 社区讨论平台
   - name: 学习资源
     icon: fas fa-graduation-cap
     sites:
