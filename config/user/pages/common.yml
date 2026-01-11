@@ -62,6 +62,26 @@ categories:
         url: https://1password.com/zh-cn/password-generator 
         icon: fas fa-1password
         description: 密码生成器
+      - name: Domain check
+        url: https://www.boce.com/ 
+        icon: fas fa-toolbox
+        description: 域名查询工具
+      - name: Networking Tools
+        url: https://networking-toolbox.as93.net/
+        icon: fas fa-network-wired
+        description: 网络工具集合
+      - name: ip address info 
+        url: https://www.ident.me/ 
+        icon: fas fa-identity-card
+        description: IP地址查询
+      - name: Dig Tools
+        url: https://www.digwebinterface.com/
+        icon: fas fa-digwebinterface
+        description: digwebinterface在线工具
+      - name: Tools Box
+        url: http://tool.chacuo.net/ 
+        icon: fas fa-toolbox
+        description: 综合工具箱
       - name: UUID Generator
         url: https://www.uuidgenerator.net/version4 
         icon: fas fa-uuidgenerator
