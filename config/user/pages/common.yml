@@ -79,7 +79,7 @@ categories:
         icon: fas fa-digwebinterface
         description: digwebinterface在线工具
       - name: Tools Box
-        url: http://tool.chacuo.net/ 
+        url: http://tool.chacuo.net/cryptdes 
         icon: fas fa-toolbox
         description: 综合工具箱
       - name: UUID Generator

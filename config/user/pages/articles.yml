@@ -30,6 +30,10 @@ categories:
         icon: fas fa-pen
         description: pseudoyu
         url: https://www.pseudoyu.com/
+      - name: Kaka
+        url: https://kaka-milan-22.github.io/my-hugo-blog/ 
+        icon: fas fa-kaka
+        description: Kaka's Blog
   - name: 官方博客
     icon: fas fa-rss
     sites:
