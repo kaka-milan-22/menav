@@ -86,6 +86,14 @@ categories:
         url: https://www.uuidgenerator.net/version4 
         icon: fas fa-uuidgenerator
         description: UUID生成器
+      - name: WormHOLE
+        url: https://wormhole.app/
+        icon: fas fa-wormhole
+        description: 文件分享工具
+      - name: Text Difference
+        url: https://www.jq22.com/textDifference 
+        icon: fas fa-code-compare
+        description: 文本比较工具
       - name: JSON Editor
         url: https://jsoneditoronline.org
         icon: fas fa-code-branch
