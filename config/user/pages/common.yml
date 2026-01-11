@@ -58,6 +58,10 @@ categories:
   - name: 在线工具
     icon: fas fa-wrench
     sites:
+      - name: Notion
+        url: https://www.notion.so/ 
+        icon: fas fa-notion
+        description: 笔记和协作工具
       - name: 1Password
         url: https://1password.com/zh-cn/password-generator 
         icon: fas fa-1password
