@@ -70,6 +70,10 @@ categories:
         url: https://notebooklm.google.com/ 
         icon: fas fa-notebooklm
         description: AI辅助笔记工具
+      - name: N8N workflow automation
+        url: https://n8n.io/ 
+        icon: fas fa-n8n
+        description: 工作流自动化工具
       - name: 1Password
         url: https://1password.com/zh-cn/password-generator 
         icon: fas fa-1password
