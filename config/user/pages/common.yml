@@ -71,7 +71,7 @@ categories:
         icon: fas fa-notebooklm
         description: AI辅助笔记工具
       - name: N8N workflow automation
-        url: https://n8n.io/ 
+        url: https://kaka8848.app.n8n.cloud/home/workflows 
         icon: fas fa-n8n
         description: 工作流自动化工具
       - name: 1Password
