@@ -43,7 +43,7 @@ categories:
         icon: fab fa-twitter
         description: 社交媒体平台
       - name: polymarket
-        url: https://polymarket.com/ 
+        url: https://polymarket.com/
         icon: fas fa-polymarket
         description: 预测市场平台
       - name: Coingeco
@@ -51,7 +51,7 @@ categories:
         icon: fab fa-Coingeco
         description: Cryptocurrency Prices
       - name: Hydration
-        url: https://app.hydration.net/trade/swap 
+        url: https://app.hydration.net/trade/swap
         icon: fab fa-Hydration
         description: An Ocean of Liquidity
       - name: Virtual Private Network
@@ -63,31 +63,31 @@ categories:
     icon: fas fa-wrench
     sites:
       - name: Notion
-        url: https://www.notion.so/ 
+        url: https://www.notion.so/
         icon: fas fa-notion
         description: 笔记和协作工具
       - name: NotebookLM
-        url: https://notebooklm.google.com/ 
+        url: https://notebooklm.google.com/
         icon: fas fa-notebooklm
         description: AI辅助笔记工具
       - name: N8N workflow
-        url: https://n8n.io/   
+        url: https://n8n.io/
         icon: fas fa-n8n
         description: 工作流自动化工具
       - name: 1Password
-        url: https://1password.com/zh-cn/password-generator 
+        url: https://1password.com/zh-cn/password-generator
         icon: fas fa-1password
         description: 密码生成器
       - name: Domain check
-        url: https://www.boce.com/ 
+        url: https://www.boce.com/
         icon: fas fa-toolbox
         description: 域名查询工具
       - name: Networking Tools
         url: https://networking-toolbox.as93.net/
         icon: fas fa-network-wired
         description: 网络工具集合
-      - name: ip address info 
-        url: https://www.ident.me/ 
+      - name: ip address info
+        url: https://www.ident.me/
         icon: fas fa-identity-card
         description: IP地址查询
       - name: Dig Tools
@@ -95,11 +95,11 @@ categories:
         icon: fas fa-digwebinterface
         description: digwebinterface在线工具
       - name: Tools Box
-        url: https://www.toolhelper.cn/ 
+        url: https://www.toolhelper.cn/
         icon: fas fa-toolhelper
         description: 综合工具箱
       - name: UUID Generator
-        url: https://www.uuidgenerator.net/version4 
+        url: https://www.uuidgenerator.net/version4
         icon: fas fa-uuidgenerator
         description: UUID生成器
       - name: WormHOLE
@@ -107,7 +107,7 @@ categories:
         icon: fas fa-wormhole
         description: 文件分享工具
       - name: Text Difference
-        url: https://www.jq22.com/textDifference 
+        url: https://www.jq22.com/textDifference
         icon: fas fa-code-compare
         description: 文本比较工具
       - name: JSON Editor
@@ -130,7 +130,7 @@ categories:
         url: https://excalidraw.com
         icon: fas fa-pencil-alt
         description: 手绘风格图表工具
-        
+
   - name: 云服务平台
     icon: fas fa-cloud
     sites:
@@ -200,4 +200,3 @@ categories:
         url: https://www.canva.com
         icon: fas fa-paint-brush
         description: 在线平面设计
-        
