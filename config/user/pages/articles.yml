@@ -30,10 +30,6 @@ categories:
         icon: fas fa-pen
         description: pseudoyu
         url: https://www.pseudoyu.com/
-      - name: Cloudflare Blog
-        icon: fas fa-cloud
-        description: Cloudflare 工程与安全博客
-        url: https://blog.cloudflare.com/
   - name: 官方博客
     icon: fas fa-rss
     sites:
@@ -45,3 +41,23 @@ categories:
         icon: fas fa-cloud
         description: Cloudflare 工程与安全博客
         url: https://blog.cloudflare.com/
+      - name: Airbnb Engineering
+        icon: fab fa-airbnb
+        description: Airbnb 后端、数据与平台工程
+        url: https://medium.com/airbnb-engineering
+      - name: HashiCorp Blog
+        icon: fas fa-cubes
+        description: Terraform / Vault / Consul 架构与实现
+        url: https://www.hashicorp.com/blog
+      - name: Kubernetes Blog
+        icon: fas fa-network-wired
+        description: Kubernetes 官方博客（架构/提案/发布）
+        url: https://kubernetes.io/blog/
+      - name: Google SRE Blog
+        icon: fas fa-heartbeat
+        description: Google SRE 实践与可靠性工程
+        url: https://sre.google/blog/
+      - name: Slack Engineering
+        icon: fab fa-slack
+        description: Slack 实时系统与平台工程
+        url: https://slack.engineering/
