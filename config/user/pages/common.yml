@@ -62,6 +62,14 @@ categories:
         url: https://www.notion.so/ 
         icon: fas fa-notion
         description: 笔记和协作工具
+      - name: polymarket
+        url: https://polymarket.com/ 
+        icon: fas fa-polymarket
+        description: 预测市场平台
+      - name: NotebookLM
+        url: https://notebooklm.google.com/ 
+        icon: fas fa-notebooklm
+        description: AI辅助笔记工具
       - name: 1Password
         url: https://1password.com/zh-cn/password-generator 
         icon: fas fa-1password
@@ -118,6 +126,7 @@ categories:
         url: https://excalidraw.com
         icon: fas fa-pencil-alt
         description: 手绘风格图表工具
+        
   - name: 云服务平台
     icon: fas fa-cloud
     sites:
