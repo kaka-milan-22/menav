@@ -30,6 +30,10 @@ categories:
         icon: fas fa-pen
         description: pseudoyu
         url: https://www.pseudoyu.com/
+      - name: Cloudflare Blog
+        icon: fas fa-cloud
+        description: Cloudflare 工程与安全博客
+        url: https://blog.cloudflare.com/
   - name: 官方博客
     icon: fas fa-rss
     sites:
