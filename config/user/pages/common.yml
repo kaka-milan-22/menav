@@ -42,6 +42,10 @@ categories:
         url: https://twitter.com
         icon: fab fa-twitter
         description: 社交媒体平台
+      - name: polymarket
+        url: https://polymarket.com/ 
+        icon: fas fa-polymarket
+        description: 预测市场平台
       - name: Coingeco
         url: https://www.coingecko.com/
         icon: fab fa-Coingeco
@@ -62,10 +66,6 @@ categories:
         url: https://www.notion.so/ 
         icon: fas fa-notion
         description: 笔记和协作工具
-      - name: polymarket
-        url: https://polymarket.com/ 
-        icon: fas fa-polymarket
-        description: 预测市场平台
       - name: NotebookLM
         url: https://notebooklm.google.com/ 
         icon: fas fa-notebooklm
