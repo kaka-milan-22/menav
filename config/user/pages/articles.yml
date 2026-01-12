@@ -45,7 +45,3 @@ categories:
         icon: fas fa-network-wired
         description: Kubernetes 官方博客（架构/提案/发布）
         url: https://kubernetes.io/blog/
-      - name: Slack Engineering
-        icon: fab fa-slack
-        description: Slack 实时系统与平台工程
-        url: https://slack.engineering/
