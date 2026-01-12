@@ -22,7 +22,12 @@ jobs:
           cache: "npm"
 
       - name: Install deps
-        run: npm ci
+        run: |
+          echo "📦 Installing dependencies..."
+          npm ci
+          echo "✅ Dependencies installed successfully"
+          echo "📋 Installed packages:"
+          npm list --depth=0
 
       # 1. 先做最便宜、最容易失败的检查（快失败）
       - name: Format check (changed files)
