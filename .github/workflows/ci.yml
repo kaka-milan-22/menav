@@ -8,33 +8,33 @@ on:
 jobs:
   build_test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: "npm"
 
-      - name: Install dependencies
+      - name: Install deps
         run: npm ci
 
-      - name: Format (auto fix)
-        run: |
-          npx prettier --write .
-
+      # 1. 先做最便宜、最容易失败的检查（快失败）
       - name: Format check (changed files)
         run: npm run format:check:changed
 
       - name: Lint
         run: npm run lint
 
+      # 2. 再跑模板 / 逻辑测试（你现在失败的就是这里）
       - name: Unit tests
         run: npm test
 
+      # 3. 最后构建
       - name: Build
         run: npm run build
