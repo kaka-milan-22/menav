@@ -60,7 +60,7 @@ categories:
         forceIconMode: manual
         description: 匿名网络服务
       - name: Kaka Blog
-        url: https://kaka-milan-22.github.io/my-hugo-blog/
+        url: https://blog.kakacn.com/
         icon: fas fa-blog
         forceIconMode: manual
         description: Kaka的个人博客
@@ -84,9 +84,8 @@ categories:
         icon: fas fa-1password
         description: 密码生成器
       - name: Kaka images Bed
-        url: https://cloudflare-imgbed-66l.pages.dev/
+        url: https://img.kakacn.com/ 
         icon: fas fa-upload
-        faviconUrl: https://cloudflare-imgbed-66l.pages.dev/favicon.ico
         description: Cloudflare个人图床
       - name: Domain check
         url: https://www.boce.com/
@@ -140,7 +139,6 @@ categories:
         url: https://excalidraw.com
         icon: fas fa-pencil-alt
         description: 手绘风格图表工具
-
   - name: 云服务平台
     icon: fas fa-cloud
     sites:
