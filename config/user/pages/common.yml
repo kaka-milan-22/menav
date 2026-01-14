@@ -78,6 +78,10 @@ categories:
         url: https://1password.com/zh-cn/password-generator
         icon: fas fa-1password
         description: 密码生成器
+      - name: Kaka images Bed
+        url: https://cloudflare-imgbed-66l.pages.dev/
+        icon: fas fa-imgbed
+        description: Cloudflare个人图床
       - name: Domain check
         url: https://www.boce.com/
         icon: fas fa-toolbox
