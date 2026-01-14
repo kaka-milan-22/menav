@@ -59,6 +59,11 @@ categories:
         icon: fas fa-mask
         forceIconMode: manual
         description: 匿名网络服务
+      - name: Kaka Blog
+        url: https://kaka-milan-22.github.io/my-hugo-blog/
+        icon: fas fa-blog
+        forceIconMode: manual
+        description: Kaka的个人博客
   - name: 在线工具
     icon: fas fa-wrench
     sites:
