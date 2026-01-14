@@ -80,7 +80,7 @@ categories:
         description: 密码生成器
       - name: Kaka images Bed
         url: https://cloudflare-imgbed-66l.pages.dev/
-        icon: fas fa-imgbed
+        icon: fas fa-images
         description: Cloudflare个人图床
       - name: Domain check
         url: https://www.boce.com/
