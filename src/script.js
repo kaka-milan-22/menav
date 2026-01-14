@@ -2094,7 +2094,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 支持 ?page=<id> 直接打开对应页面；无效时回退到首页
     const rawPageIdFromUrl = getRawPageIdFromUrl();
     const validatedPageIdFromUrl = getPageIdFromUrl();
-    const initialPageId = validatedPageIdFromUrl || (isValidPageId(homePageId) ? homePageId : 'home');
+    const initialPageId =
+      validatedPageIdFromUrl || (isValidPageId(homePageId) ? homePageId : 'home');
 
     setActiveNavByPageId(initialPageId);
     showPage(initialPageId);
