@@ -84,7 +84,7 @@ categories:
         icon: fas fa-1password
         description: 密码生成器
       - name: Kaka images Bed
-        url: https://img.kakacn.com/ 
+        url: https://img.kakacn.com/
         icon: fas fa-upload
         description: Cloudflare个人图床
       - name: Domain check
