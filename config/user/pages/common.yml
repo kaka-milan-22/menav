@@ -62,7 +62,7 @@ categories:
       - name: Kaka Blog
         url: https://blog.kakacn.com/
         icon: fas fa-blog
-        forceIconMode: manual
+        # forceIconMode: manual
         description: Kaka的个人博客
   - name: 在线工具
     icon: fas fa-wrench
