@@ -86,6 +86,7 @@ categories:
       - name: Kaka images Bed
         url: https://img.kakacn.com/
         icon: fas fa-image
+        forceIconMode: manual
         description: Cloudflare个人图床
       - name: Domain check
         url: https://www.boce.com/
