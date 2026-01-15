@@ -61,7 +61,7 @@ categories:
         description: 匿名网络服务
       - name: Kaka Blog
         url: https://blog.kakacn.com/
-        icon: fas fa-blog
+        faviconUrl: https://blog.kakacn.com/favicon.ico
         description: Kaka的个人博客
   - name: 在线工具
     icon: fas fa-wrench
