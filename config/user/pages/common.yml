@@ -91,6 +91,10 @@ categories:
         url: https://www.boce.com/
         icon: fas fa-toolbox
         description: 域名查询工具
+      - name: Cloudflare Tools
+        url: https://dnschecker.org/ 
+        icon: fas fa-dnschecker
+        description: DNS查询工具
       - name: Networking Tools
         url: https://networking-toolbox.as93.net/
         icon: fas fa-network-wired
