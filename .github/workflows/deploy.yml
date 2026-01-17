@@ -18,7 +18,7 @@ permissions:
 concurrency:
   # 说明：
   # - 本工作流在检测到 bookmarks/*.html 时会自动导入并 push 回主分支
-  # - 若 concurrency group 统一为固定值，会导致“自触发的 push run”取消当前正在部署的 run（cancel-in-progress）
+  # - 若 concurrency group 统一为固定值，会导致"自触发的 push run"取消当前正在部署的 run（cancel-in-progress）
   # - 这里仅对 actions bot 的 push run 单独分组，避免误取消当前 run；其余触发保持全局串行
   group: ${{ github.event_name == 'push' && github.actor == 'github-actions[bot]' && 'pages-bot-push' || 'pages' }}
   cancel-in-progress: true
@@ -28,6 +28,8 @@ jobs:
     # 防自触发：CI 自己 push 产生的 push 事件不需要再部署（本次 run 已完成导入并继续部署）
     if: ${{ github.event_name != 'push' || github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
+    # 增加整体超时时间，避免网络慢导致整个workflow被取消
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -112,13 +114,32 @@ jobs:
       # - 同步结果写入 dev/（仓库默认 gitignore），仅用于本次构建渲染
       # - 同步脚本内部已做 best-effort（失败不阻断后续 build）
       - name: Sync projects (best-effort)
+        timeout-minutes: 5
+        env:
+          # CI 环境增加超时时间，避免网络慢导致超时
+          PROJECTS_FETCH_TIMEOUT: 30000 # 30秒单请求超时（默认10秒）
         run: npm run sync-projects
 
       - name: Sync articles (best-effort)
+        timeout-minutes: 5
+        env:
+          # CI 环境增加超时时间，避免网络慢导致超时
+          RSS_FETCH_TIMEOUT: 20000 # 20秒单请求超时（默认10秒）
+          RSS_TOTAL_TIMEOUT: 180000 # 3分钟总超时（默认60秒）
         run: npm run sync-articles
 
       - name: Build site (clean dist + generate)
         run: npm run build
+
+      - name: Show build artifacts on failure
+        if: failure()
+        run: |
+          echo "=== Build failed - checking dist directory ==="
+          ls -la dist/ || echo "dist directory not found"
+          echo "=== Checking dev cache directory ==="
+          ls -la dev/ 2>/dev/null || echo "dev directory not found"
+          echo "=== Checking config/user directory ==="
+          ls -la config/user/ || echo "config/user directory not found"
 
       - name: Check favicon
         run: |

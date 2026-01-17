@@ -8,6 +8,7 @@ on:
 jobs:
   build_test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -42,4 +43,17 @@ jobs:
 
       # 3. 最后构建
       - name: Build
+        env:
+          # CI 环境增加超时时间，避免网络慢导致超时
+          PROJECTS_FETCH_TIMEOUT: 30000 # 30秒单请求超时（默认10秒）
+          RSS_FETCH_TIMEOUT: 20000 # 20秒单请求超时（默认10秒）
+          RSS_TOTAL_TIMEOUT: 180000 # 3分钟总超时（默认60秒）
         run: npm run build
+
+      - name: Show build artifacts on failure
+        if: failure()
+        run: |
+          echo "=== Build failed - checking dist directory ==="
+          ls -la dist/ || echo "dist directory not found"
+          echo "=== Checking dev cache directory ==="
+          ls -la dev/ 2>/dev/null || echo "dev directory not found"

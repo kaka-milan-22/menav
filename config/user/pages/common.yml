@@ -92,7 +92,7 @@ categories:
         icon: fas fa-toolbox
         description: 域名查询工具
       - name: Cloudflare Tools
-        url: https://dnschecker.org/ 
+        url: https://dnschecker.org/
         icon: fas fa-dnschecker
         description: DNS查询工具
       - name: Networking Tools
