@@ -63,6 +63,11 @@ categories:
         url: https://blog.kakacn.com/
         faviconUrl: https://blog.kakacn.com/favicon.ico
         description: Kaka的个人博客
+      - name: 2026
+        url: http://2026.kakacn.com/
+        icon: fas fa-calendar-alt
+        forceIconMode: manual
+        description: 2026年时间进度
   - name: 在线工具
     icon: fas fa-wrench
     sites:
