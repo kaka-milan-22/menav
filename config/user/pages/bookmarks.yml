@@ -28,6 +28,10 @@ categories:
         url: 'https://bm.md/'
         icon: 'fas fa-markdown'
         description: 'Markdown实时预览'
+      - name: 'English Study FXG'
+        url: 'https://en.knowledgefxg.com/'
+        icon: 'fas fa-knowledge'
+        description: '英语学习资源'
   - name: '社交媒体'
     icon: 'fas fa-share-alt'
     groups:
