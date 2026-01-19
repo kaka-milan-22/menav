@@ -24,7 +24,10 @@ categories:
         url: 'https://www.passwordgenerators.net/'
         icon: 'fas fa-key'
         description: '密码生成器'
-
+      - name: 'markdown live preview'
+        url: 'https://bm.md/'
+        icon: 'fas fa-markdown'
+        description: 'Markdown实时预览'
   - name: '社交媒体'
     icon: 'fas fa-share-alt'
     groups:
