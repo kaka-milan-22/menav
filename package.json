@@ -18,6 +18,7 @@
     "format": "prettier --write \"src/**/*.js\" \"scripts/**/*.js\" \"test/**/*.js\" \".github/**/*.yml\" \"*.{md,json}\" \"config/**/*.md\" \"config/**/*.yml\"",
     "format:check": "prettier --check \"src/**/*.js\" \"scripts/**/*.js\" \"test/**/*.js\" \".github/**/*.yml\" \"*.{md,json}\" \"config/**/*.md\" \"config/**/*.yml\"",
     "format:check:changed": "node ./scripts/format-check-changed.js",
+    "pre-commit": "node ./scripts/pre-commit-check.js",
     "check": "npm run lint && npm test && npm run build"
   },
   "keywords": [
