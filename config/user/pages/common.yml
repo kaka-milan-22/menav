@@ -21,8 +21,8 @@ categories:
         icon: fas fa-robot
         faviconUrl: https://cdn.oaistatic.com/_next/static/media/favicon-32x32.630a2b99.png
         description: AI智能助手
-      - name: Claude AI 
-        url: https://claude.ai/ 
+      - name: Claude AI
+        url: https://claude.ai/
         icon: fas fa-cloud
         description: Anthropic AI助手
       - name: Gemini
