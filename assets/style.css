@@ -2881,21 +2881,7 @@ body .content.expanded {
 }
 
 .sidebar.collapsed .sidebar-profile {
-    padding: 0.8rem 0.5rem;
-}
-
-.sidebar.collapsed .profile-avatar {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 0.5rem;
-}
-
-.sidebar.collapsed .profile-name {
-    font-size: 0.9rem;
-}
-
-.sidebar.collapsed .profile-bio {
-    font-size: 0.75rem;
+    display: none;
 }
 
 /* 侧边栏底部：社交图标（位于 sidebar-footer 上方） */
