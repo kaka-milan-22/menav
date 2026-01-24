@@ -18,7 +18,7 @@ categories:
     sites:
       - name: CloudFlare-ImgBed
         icon: fab fa-github # 手动图标（manual 模式显示；favicon 模式下作为回退）
-        description: 基于clousflare worker 实现在图床,支持telegram bot上传图片 
+        description: 基于CloudFlare worker 实现在图床,支持telegram bot上传图片 
         url: https://github.com/kaka-milan-22/CloudFlare-ImgBed 
       - name: Encipherr-CLI 
         icon: fab fa-github
