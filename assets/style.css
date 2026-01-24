@@ -264,7 +264,7 @@ body.loaded .layout {
     padding-left: calc(env(safe-area-inset-left) + var(--spacing-md));
     padding-right: calc(env(safe-area-inset-right) + var(--spacing-md));
     justify-content: space-between;
-    z-index: 910;
+    z-index: 1010;
     pointer-events: none;
 }
 
@@ -2374,7 +2374,7 @@ body .content.expanded {
         height: 60px;
     }
 
-    /* 移动端下隐藏侧边栏折叠按钮 */
+    /* 移动端下隐藏侧边栏折叠按钮，但打开时显示 */
     .sidebar-toggle {
         display: none;
     }
@@ -2384,6 +2384,11 @@ body .content.expanded {
         box-shadow: 2px 0 10px var(--shadow-color);
         z-index: 1000;
         /* 增加侧边栏激活时的z-index，确保显示在按钮之上 */
+    }
+
+    /* 移动端侧边栏打开时显示关闭按钮 */
+    .sidebar.active .sidebar-toggle {
+        display: flex;
     }
 
     /* 重置移动端下的侧边栏展开状态 */

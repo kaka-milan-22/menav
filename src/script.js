@@ -1245,7 +1245,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 侧边栏折叠按钮点击事件
   if (sidebarToggle) {
-    sidebarToggle.addEventListener('click', toggleSidebarCollapse);
+    sidebarToggle.addEventListener('click', function() {
+      // 移动端：关闭侧边栏；PC端：折叠/展开
+      if (isMobile()) {
+        toggleSidebar();
+      } else {
+        toggleSidebarCollapse();
+      }
+    });
   }
 
   // 主题切换功能
