@@ -16,14 +16,14 @@ categories:
   - name: 个人项目
     icon: fas fa-code # 分类图标（Font Awesome）
     sites:
-      - name: MeNav
+      - name: CloudFlare-ImgBed
         icon: fab fa-github # 手动图标（manual 模式显示；favicon 模式下作为回退）
-        description: 一键部署的个人导航站生成器，支持书签导入与自动构建，轻松整理展示您的网络收藏 # 站点描述
-        url: https://github.com/rbetree/menav
-      - name: MarksVault
+        description: 基于clousflare worker 实现在图床,支持telegram bot上传图片 
+        url: https://github.com/kaka-milan-22/CloudFlare-ImgBed 
+      - name: Encipherr-CLI 
         icon: fab fa-github
-        description: 一个强大的浏览器扩展，用于智能管理、整理和安全备份您的书签数据
-        url: 'https://github.com/rbetree/MarksVault'
+        description: A simple and secure command-line tool for file encryption and decryption using AES-256-CBC algorithm with password-based key derivation.
+        url: 'https://github.com/kaka-milan-22/aes_cli'
   - name: star
     icon: fas fa-star
     sites:
