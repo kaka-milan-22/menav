@@ -1790,6 +1790,28 @@ function copyStaticFiles(config) {
       console.error('Error copying favicon:', e);
     }
   }
+
+  // 如果配置了 profile.avatar，复制头像文件
+  if (config.site.profile?.avatar) {
+    try {
+      const avatarPath = config.site.profile.avatar.replace(/^\/+/, ''); // 移除开头的斜杠
+      const srcPath = avatarPath.startsWith('assets/') ? avatarPath : `assets/${avatarPath}`;
+      const destPath = `dist/${avatarPath}`;
+      
+      if (fs.existsSync(srcPath)) {
+        // 确保目标目录存在
+        const destDir = path.dirname(destPath);
+        if (!fs.existsSync(destDir)) {
+          fs.mkdirSync(destDir, { recursive: true });
+        }
+        fs.copyFileSync(srcPath, destPath);
+      } else {
+        console.warn(`Warning: Avatar file not found: ${srcPath}`);
+      }
+    } catch (e) {
+      console.error('Error copying avatar:', e);
+    }
+  }
 }
 
 // 生成 GitHub Pages 的 404 回跳页：将 /<id> 形式的路径深链接转换为 /?page=<id>

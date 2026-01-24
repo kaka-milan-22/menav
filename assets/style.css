@@ -332,10 +332,11 @@ body.loaded .layout {
     transform: translateZ(0);
     height: var(--app-height, 100vh);
     display: grid;
-    grid-template-rows: auto 1fr auto auto;
+    grid-template-rows: auto 1fr auto auto auto;
     grid-template-areas:
         "header"
         "content"
+        "profile"
         "social"
         "footer";
     scrollbar-width: thin;
@@ -2839,6 +2840,62 @@ body .content.expanded {
 
 .sites-grid {
     transition: gap 0.3s ease;
+}
+
+/* 侧边栏个人简介（位于社交图标上方） */
+.sidebar-profile {
+    grid-area: profile;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    margin: 0 auto 0.8rem;
+    display: block;
+    border: 3px solid var(--border-color);
+    transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.profile-avatar:hover {
+    transform: scale(1.05);
+    border-color: var(--accent-color);
+}
+
+.profile-name {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.profile-bio {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.sidebar.collapsed .sidebar-profile {
+    padding: 0.8rem 0.5rem;
+}
+
+.sidebar.collapsed .profile-avatar {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar.collapsed .profile-name {
+    font-size: 0.9rem;
+}
+
+.sidebar.collapsed .profile-bio {
+    font-size: 0.75rem;
 }
 
 /* 侧边栏底部：社交图标（位于 sidebar-footer 上方） */

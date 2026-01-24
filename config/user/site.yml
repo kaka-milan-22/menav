@@ -58,6 +58,10 @@ profile:
   # 因此建议把首页希望展示的文案写在这里，避免“改了 pages/<首页id>.yml 但首页不生效”的误会
   title: Kaka精选
   subtitle: Welcome to Kaka's Navigation Station
+  # 侧边栏个人简介（可选）
+  avatar: /avatar.jpg # 头像路径（相对于网站根目录）
+  name: Kaka # 显示名称
+  bio: 10-Year DevOps | Building free tools for developers # 一句话介绍
 
 # RSS（Phase 2）：用于 articles 页面文章聚合
 # 说明：

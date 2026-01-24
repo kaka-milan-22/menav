@@ -77,6 +77,20 @@
                 </div>
             </div>
 
+	            {{#if profile}}
+	            <div class="sidebar-profile">
+	                {{#if profile.avatar}}
+	                <img src="{{profile.avatar}}" alt="{{profile.name}}" class="profile-avatar">
+	                {{/if}}
+	                {{#if profile.name}}
+	                <h3 class="profile-name">Hi, I'm {{profile.name}}</h3>
+	                {{/if}}
+	                {{#if profile.bio}}
+	                <p class="profile-bio">{{profile.bio}}</p>
+	                {{/if}}
+	            </div>
+	            {{/if}}
+
 	            <div class="sidebar-social" data-container="social-links">
 	                {{#if social}}
 	                {{> social-links social}}
