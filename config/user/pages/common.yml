@@ -171,6 +171,10 @@ categories:
         url: https://www.cloudflare.com
         icon: fas fa-cloud
         description: CDN与安全服务
+      - name: Proton
+        url: https://mail.proton.me/ 
+        icon: fas fa-proton
+        description: 安全邮箱服务
       - name: Vercel
         url: https://vercel.com
         icon: fas fa-server
