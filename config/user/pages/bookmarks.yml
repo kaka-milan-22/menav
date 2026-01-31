@@ -40,6 +40,10 @@ categories:
         url: 'https://typewords.cc/'
         icon: 'fas fa-typewriter'
         description: '英语学习资源'
+      - name: 'SimpleLogin'
+        url: 'https://simplelogin.io/'
+        icon: 'fas fa-envelope'
+        description: '邮箱别名服务'
   - name: '社交媒体'
     icon: 'fas fa-share-alt'
     groups:
