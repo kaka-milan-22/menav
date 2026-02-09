@@ -44,6 +44,10 @@ categories:
         url: 'https://simplelogin.io/'
         icon: 'fas fa-envelope'
         description: '邮箱别名服务'
+      - name: 'i8k TV'
+        url: 'https://i8k.tv/'
+        icon: 'fas fa-tv'
+        description: '视频流媒体服务'
   - name: '社交媒体'
     icon: 'fas fa-share-alt'
     groups:
