@@ -1797,7 +1797,7 @@ function copyStaticFiles(config) {
       const avatarPath = config.site.profile.avatar.replace(/^\/+/, ''); // 移除开头的斜杠
       const srcPath = avatarPath.startsWith('assets/') ? avatarPath : `assets/${avatarPath}`;
       const destPath = `dist/${avatarPath}`;
-      
+
       if (fs.existsSync(srcPath)) {
         // 确保目标目录存在
         const destDir = path.dirname(destPath);

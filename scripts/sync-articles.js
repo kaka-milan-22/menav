@@ -397,11 +397,11 @@ function normalizeArticle(item, sourceSite, settings) {
   if (!isHttpUrl(link)) return null;
 
   const summaryRaw =
-    (item && item.contentSnippet) || 
-    (item && item.summary) || 
-    (item && item.content) || 
+    (item && item.contentSnippet) ||
+    (item && item.summary) ||
+    (item && item.content) ||
     (item && item.description) ||
-    (item && item['content:encoded']) ||  // 添加对RSS content:encoded字段的支持
+    (item && item['content:encoded']) || // 添加对RSS content:encoded字段的支持
     '';
   const summaryText = stripHtmlToText(summaryRaw);
   const summary = settings.articles.summaryMaxLength
@@ -478,17 +478,17 @@ async function processSourceSite(sourceSite, settings, parser, deadlineTs) {
   const attempt = async () => {
     // 优先使用配置中明确指定的 feedUrl
     const configFeedUrl = sourceSite && sourceSite.feedUrl ? String(sourceSite.feedUrl) : '';
-    
+
     let candidates = [];
     if (configFeedUrl && isHttpUrl(configFeedUrl)) {
       candidates.push(configFeedUrl);
     }
-    
+
     // 然后尝试自动发现
     const discovered = await discoverFeedUrl(url, settings, deadlineTs);
     if (discovered) candidates.push(discovered);
-    
-    // 最后尝试常见路径 
+
+    // 最后尝试常见路径
     candidates.push(...buildCommonFeedUrls(url));
 
     for (const candidate of [...new Set(candidates)]) {

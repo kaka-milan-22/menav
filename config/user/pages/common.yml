@@ -59,7 +59,7 @@ categories:
         icon: fab fa-Hydration
         description: An Ocean of Liquidity
       - name: Virtual Private Network
-        url: https://restless-water-ece9.kakacn.workers.dev/ 
+        url: https://restless-water-ece9.kakacn.workers.dev/
         icon: fas fa-mask
         forceIconMode: manual
         description: 匿名网络服务
@@ -172,7 +172,7 @@ categories:
         icon: fas fa-cloud
         description: CDN与安全服务
       - name: Proton
-        url: https://mail.proton.me/ 
+        url: https://mail.proton.me/
         icon: fas fa-proton
         faviconUrl: https://proton.me/favicon.ico
         description: 安全邮箱服务
