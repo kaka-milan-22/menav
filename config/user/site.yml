@@ -77,7 +77,7 @@ rss:
     maxRetries: 1 # 单站点重试次数（best-effort）
     maxRedirects: 3 # 最大重定向次数
   articles:
-    perSite: 8 # 单站点最多抓取条数
+    perSite: 10 # 单站点最多抓取条数
     total: 50 # 全站聚合上限
     summaryMaxLength: 200 # 摘要最大长度（字符）
 
