@@ -77,8 +77,8 @@ rss:
     maxRetries: 1 # 单站点重试次数（best-effort）
     maxRedirects: 3 # 最大重定向次数
   articles:
-    perSite: 10 # 单站点最多抓取条数
-    total: 50 # 全站聚合上限
+    perSite: 15 # 单站点最多抓取条数（从10增加到15）
+    total: 105 # 全站聚合上限（从50增加到105，确保所有站点都有文章显示）
     summaryMaxLength: 200 # 摘要最大长度（字符）
 
 # GitHub：用于 projects 页面右侧“贡献热力图”（可选）
