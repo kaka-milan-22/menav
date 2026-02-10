@@ -397,7 +397,12 @@ function normalizeArticle(item, sourceSite, settings) {
   if (!isHttpUrl(link)) return null;
 
   const summaryRaw =
-    (item && item.contentSnippet) || (item && item.summary) || (item && item.content) || '';
+    (item && item.contentSnippet) || 
+    (item && item.summary) || 
+    (item && item.content) || 
+    (item && item.description) ||
+    (item && item['content:encoded']) ||  // 添加对RSS content:encoded字段的支持
+    '';
   const summaryText = stripHtmlToText(summaryRaw);
   const summary = settings.articles.summaryMaxLength
     ? truncateText(summaryText, settings.articles.summaryMaxLength)
