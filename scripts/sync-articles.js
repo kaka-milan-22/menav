@@ -18,7 +18,7 @@ const DEFAULT_RSS_SETTINGS = {
     maxRedirects: 3,
     userAgent: 'MeNavRSSSync/1.0',
     htmlMaxBytes: 512 * 1024,
-    feedMaxBytes: 1024 * 1024,
+    feedMaxBytes: 5 * 1024 * 1024, // 增加到5MB，适应较大的RSS feed
   },
   articles: {
     perSite: 8,
@@ -471,10 +471,20 @@ async function processSourceSite(sourceSite, settings, parser, deadlineTs) {
   };
 
   const attempt = async () => {
+    // 优先使用配置中明确指定的 feedUrl
+    const configFeedUrl = sourceSite && sourceSite.feedUrl ? String(sourceSite.feedUrl) : '';
+    
+    let candidates = [];
+    if (configFeedUrl && isHttpUrl(configFeedUrl)) {
+      candidates.push(configFeedUrl);
+    }
+    
+    // 然后尝试自动发现
     const discovered = await discoverFeedUrl(url, settings, deadlineTs);
-    const candidates = discovered
-      ? [discovered, ...buildCommonFeedUrls(url)]
-      : buildCommonFeedUrls(url);
+    if (discovered) candidates.push(discovered);
+    
+    // 最后尝试常见路径 
+    candidates.push(...buildCommonFeedUrls(url));
 
     for (const candidate of [...new Set(candidates)]) {
       try {

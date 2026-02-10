@@ -26,10 +26,12 @@ categories:
         icon: fas fa-pen
         description: 小弟调调杂记
         url: https://wmyskxz.cn/
+        feedUrl: https://wmyskxz.cn/atom.xml
       - name: pseudoyu
         icon: fas fa-pen
         description: pseudoyu
         url: https://www.pseudoyu.com/
+        feedUrl: https://www.pseudoyu.com/feed.xml
   - name: 官方博客
     icon: fas fa-rss
     sites:
