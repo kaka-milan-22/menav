@@ -188,7 +188,7 @@ categories:
     icon: fab fa-apple
     sites:
       - name: awesome-macos-apps
-        url: https://github.com/open-saas-directory/awesome-native-macosx-apps 
+        url: https://github.com/open-saas-directory/awesome-native-macosx-apps
         icon: fas fa-macos
         description: MacOS应用推荐
       - name: awesome-macOS
