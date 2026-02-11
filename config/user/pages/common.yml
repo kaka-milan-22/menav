@@ -184,21 +184,13 @@ categories:
         url: https://www.netlify.com
         icon: fas fa-globe
         description: 静态网站托管
-  - name: 学习资源
-    icon: fas fa-graduation-cap
+  - name: MAC生态
+    icon: fas fa-apple
     sites:
-      - name: 哔哩哔哩
-        url: https://www.bilibili.com
-        icon: fas fa-play-circle
-        description: 视频学习平台
-      - name: 掘金
-        url: https://juejin.cn
-        icon: fas fa-book
-        description: 高质量技术社区
-      - name: LeetCode
-        url: https://leetcode.cn
-        icon: fas fa-code
-        description: 算法刷题平台
+      - name: awesome-macos-apps
+        url: https://github.com/open-saas-directory/awesome-native-macosx-apps 
+        icon: fas fa-macos
+        description: MacOS应用推荐
   - name: 设计资源
     icon: fas fa-palette
     sites:
