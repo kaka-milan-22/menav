@@ -191,6 +191,10 @@ categories:
         url: https://github.com/open-saas-directory/awesome-native-macosx-apps 
         icon: fas fa-macos
         description: MacOS应用推荐
+      - name: awesome-macOS
+        url: https://github.com/iCHAIT/awesome-macOS
+        icon: fab fa-apple
+        description: MAC软件推荐
   - name: 设计资源
     icon: fas fa-palette
     sites:
