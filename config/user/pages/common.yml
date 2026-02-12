@@ -195,6 +195,10 @@ categories:
         url: https://github.com/iCHAIT/awesome-macOS
         icon: fab fa-apple
         description: MAC软件推荐
+      - name: Hacking-Tools
+        url: https://github.com/yogsec/Hacking-Tools
+        icon: fas fa-shield-alt
+        description: 渗透与安全工具集合
   - name: 设计资源
     icon: fas fa-palette
     sites:
