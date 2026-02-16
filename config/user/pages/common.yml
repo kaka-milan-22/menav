@@ -199,6 +199,10 @@ categories:
         url: https://github.com/yogsec/Hacking-Tools
         icon: fas fa-shield-alt
         description: 渗透与安全工具集合
+      - name: DevOps-Bash-Tools
+        url: https://github.com/dhomane/DevOps-Bash-Tools
+        icon: fab fa-github
+        description: A curated list of DevOps Bash tools.
   - name: 设计资源
     icon: fas fa-palette
     sites:
