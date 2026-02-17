@@ -208,6 +208,10 @@ categories:
         url: https://github.com/watzon/pindrop
         icon: fab fa-github
         description: A native macOS menu bar dictation app using local speech-to-text with WhisperKit.
+      - name: awesome-n8n-templates
+        url: https://github.com/enescingoz/awesome-n8n-templates
+        icon: fab fa-github
+        description: Supercharge your n8n workflows with this curated list of awesome templates.
   - name: 设计资源
     icon: fas fa-palette
     sites:
