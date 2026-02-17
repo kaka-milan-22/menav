@@ -75,7 +75,7 @@ categories:
   - name: 在线工具
     icon: fas fa-wrench
     sites:
-      - name: kaka tools
+      - name: Kaka Tools
         url: https://tools.kakacn.com/
         icon: fas fa-tools
         forceIconMode: manual
