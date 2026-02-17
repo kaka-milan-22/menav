@@ -34,9 +34,8 @@ This skill provides a structured workflow for adding new links to the MeNav proj
     *   **If this script fails, STOP.** Analyze the output, fix the formatting or syntax errors, and re-run the script until it passes. Do not proceed until this check is successful.
 
 6.  **Commit and Push**:
-    *   After the pre-commit check passes, inform the user that the checks are successful and **ask for confirmation to commit and push the changes**.
-    *   **DO NOT proceed without user confirmation.**
-    *   If confirmed, perform the following git operations:
+    *   After the pre-commit check passes, inform the user that the checks are successful and automatically proceed to commit and push the changes.
+    *   Perform the following git operations:
         1.  `git add <modified_file_path>` (e.g., `git add config/user/pages/common.yml`)
         2.  Create a commit message, for example: `feat(links): Add '[Site Name]' to '[Category] category'`.
         3.  Execute `git commit -m "..."` with the generated message.

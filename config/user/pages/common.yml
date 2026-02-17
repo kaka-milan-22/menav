@@ -78,6 +78,7 @@ categories:
       - name: kaka tools
         url: https://tools.kakacn.com/
         icon: fas fa-tools
+        forceIconMode: manual
         description: 在线工具
       - name: Notion
         url: https://www.notion.so/
