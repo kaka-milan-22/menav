@@ -80,10 +80,11 @@ categories:
         icon: fas fa-tools
         forceIconMode: manual
         description: 在线工具
-      - name: Notion
-        url: https://www.notion.so/
-        icon: fas fa-notion
-        description: 笔记和协作工具
+      - name: Kaka Clock
+        url: https://clock.kakacn.com/
+        icon: fas fa-clock
+        forceIconMode: manual
+        description: 在线时钟
       - name: NotebookLM
         url: https://notebooklm.google.com/
         icon: fas fa-notebooklm
