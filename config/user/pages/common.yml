@@ -212,6 +212,10 @@ categories:
         url: https://github.com/enescingoz/awesome-n8n-templates
         icon: fab fa-github
         description: Supercharge your n8n workflows with this curated list of awesome templates.
+      - name: steipete
+        url: https://github.com/steipete
+        icon: fab fa-github
+        description: Founder of PSPDFKit, macOS/iOS developer
   - name: 设计资源
     icon: fas fa-palette
     sites:
