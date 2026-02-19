@@ -1,0 +1,12 @@
+{{!-- home-dashboard.hbs - 首页 Dashboard 布局模板（带时钟） --}}
+<div class="page-template page-template-{{pageId}} page-template-dashboard">
+    {{!-- Dashboard 区域：时钟 + TodoList --}}
+    {{> dashboard}}
+    
+    {{!-- 分类内容区域 --}}
+    <div class="dashboard-categories">
+        {{#each categories}}
+            {{> category}}
+        {{/each}}
+    </div>
+</div>

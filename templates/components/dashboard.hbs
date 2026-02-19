@@ -1,0 +1,65 @@
+{{!-- dashboard.hbs - 首页 Dashboard 组件（时钟） --}}
+<div class="dashboard-grid">
+    {{!-- 左侧：欢迎语 --}}
+    <div class="dashboard-intro">
+        <div class="dashboard-welcome">
+            <h1 class="welcome-title">{{title}}</h1>
+            <p class="welcome-subtitle">{{subtitle}}</p>
+        </div>
+    </div>
+
+    {{!-- 右侧：时钟面板 --}}
+    <div class="dashboard-stats">
+        <div class="dashboard-clock-card">
+            <div class="clock-header">
+                <div class="clock-meta">
+                    <div class="clock-greeting" id="dashboard-greeting">Hello</div>
+                    <div class="clock-date" id="dashboard-date">Mon, Jan 01</div>
+                </div>
+                <div class="clock-week" id="dashboard-week">Week 1</div>
+            </div>
+
+            <div class="clock-main">
+                <div class="clock-time" id="dashboard-clock">00:00</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function () {
+        // --- Clock Logic ---
+        function getWeekNumber(d) {
+            d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+            d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+            var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+            var weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+            return weekNo;
+        }
+
+        function getGreeting(hour) {
+            if (hour < 5) return "Good Night";
+            if (hour < 12) return "Good Morning";
+            if (hour < 18) return "Good Afternoon";
+            return "Good Evening";
+        }
+
+        function updateDashboardClock() {
+            const clockEl = document.getElementById('dashboard-clock');
+            const dateEl = document.getElementById('dashboard-date');
+            const greetingEl = document.getElementById('dashboard-greeting');
+            const weekEl = document.getElementById('dashboard-week');
+
+            if (!clockEl || !dateEl) return;
+
+            const now = new Date();
+            clockEl.textContent = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit' });
+            dateEl.textContent = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+            if (greetingEl) greetingEl.textContent = getGreeting(now.getHours());
+            if (weekEl) weekEl.textContent = `Week ${getWeekNumber(now)}`;
+        }
+
+        setInterval(updateDashboardClock, 1000);
+        updateDashboardClock();
+    })();
+</script>
