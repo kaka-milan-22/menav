@@ -122,10 +122,10 @@ categories:
         url: https://www.toolhelper.cn/
         icon: fas fa-toolhelper
         description: 综合工具箱
-      - name: UUID Generator
-        url: https://www.uuidgenerator.net/version4
-        icon: fas fa-uuidgenerator
-        description: UUID生成器
+      - name: Web Check
+        url: https://web-check.xyz/
+        icon: fas fa-search
+        description: 网站信息检测工具
       - name: WormHOLE
         url: https://wormhole.app/
         icon: fas fa-wormhole
