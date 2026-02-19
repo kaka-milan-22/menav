@@ -27,11 +27,11 @@ categories:
         description: 小弟调调杂记
         url: https://wmyskxz.cn/
         feedUrl: https://wmyskxz.cn/atom.xml
-      - name: pseudoyu
+      - name: 潮流周刊
         icon: fas fa-pen
-        description: pseudoyu
-        url: https://www.pseudoyu.com/
-        feedUrl: https://www.pseudoyu.com/feed.xml
+        description: 前端潮流技术周刊
+        url: https://weekly.tw93.fun/
+        feedUrl: https://weekly.tw93.fun/rss.xml
   - name: 官方博客
     icon: fas fa-rss
     sites:
