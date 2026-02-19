@@ -3133,3 +3133,133 @@ body .content.expanded {
         display: none;
     }
 }
+
+/* ===========================
+   Dashboard 组件样式
+   =========================== */
+
+/* Dashboard 主网格布局 */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    max-width: var(--page-max-width);
+}
+
+@media (max-width: 992px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+}
+
+/* 左侧：欢迎语 */
+.dashboard-intro {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+/* 欢迎语区域 */
+.dashboard-welcome {
+    background: linear-gradient(135deg, var(--card-bg-gradient-1) 0%, var(--card-bg-gradient-2) 100%);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+}
+
+.dashboard-welcome .welcome-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 var(--spacing-sm) 0;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dashboard-welcome .welcome-subtitle {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+/* 右侧：时钟面板 */
+.dashboard-stats {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 时钟卡片 */
+.dashboard-clock-card {
+    background: linear-gradient(135deg, var(--card-bg-gradient-1) 0%, var(--card-bg-gradient-2) 100%);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    height: 100%;
+    min-height: 200px;
+}
+
+.clock-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.clock-meta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.clock-greeting {
+    font-size: 0.875rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.clock-date {
+    font-size: 0.9375rem;
+    color: var(--text-muted);
+}
+
+.clock-week {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    background: var(--highlight-bg);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-full);
+}
+
+.clock-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.clock-time {
+    font-size: 4rem;
+    font-weight: 300;
+    color: var(--text-color);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .clock-time {
+        font-size: 3rem;
+    }
+}
+
+/* Dashboard 分类区域 */
+.dashboard-categories {
+    max-width: var(--page-max-width);
+}

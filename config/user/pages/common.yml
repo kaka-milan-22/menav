@@ -4,8 +4,8 @@ title: 常用网站 # 页面标题
 subtitle: Common website # 页面副标题
 
 # 指定使用的模板文件名，现有页面模板可见 templates/pages（不含 .hbs）
-# 说明：推荐使用通用模板 page；首页由“导航第一项”决定
-template: page
+# 说明：推荐使用通用模板 page；首页由"导航第一项"决定
+template: home-dashboard
 
 # 页面分类与站点列表
 categories:
