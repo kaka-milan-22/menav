@@ -3263,26 +3263,3 @@ body .content.expanded {
 .dashboard-categories {
     max-width: var(--page-max-width);
 }
-
-/* 嵌入外部时钟 iframe 样式 */
-.dashboard-clock-embed {
-    background: linear-gradient(135deg, var(--card-bg-gradient-1) 0%, var(--card-bg-gradient-2) 100%);
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--border-color);
-    overflow: hidden;
-    height: 200px;
-    position: relative;
-}
-
-.dashboard-clock-embed iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .dashboard-clock-embed {
-        height: 180px;
-    }
-}
