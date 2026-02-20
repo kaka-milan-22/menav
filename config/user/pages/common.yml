@@ -221,6 +221,10 @@ categories:
         url: https://github.com/avelino/awesome-go
         icon: fab fa-golang
         description: Go框架、库和软件精选列表
+      - name: dicta
+        url: https://github.com/nitintf/dicta
+        icon: fab fa-github
+        description: Voice transcription app for macOS
   - name: 设计资源
     icon: fas fa-palette
     sites:
