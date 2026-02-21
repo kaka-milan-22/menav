@@ -66,6 +66,10 @@ categories:
             url: 'https://dune.com/home'
             icon: 'fas fa-database'
             description: '区块链数据分析平台'
+          - name: 'Binance'
+            url: 'https://www.binance.com/'
+            icon: 'fas fa-exchange-alt'
+            description: '全球最大加密货币交易所'
       - name: '区块链浏览器'
         icon: 'fas fa-search'
         sites:
