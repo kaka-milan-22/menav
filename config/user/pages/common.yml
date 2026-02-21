@@ -225,6 +225,10 @@ categories:
         url: https://github.com/nitintf/dicta
         icon: fab fa-github
         description: Voice transcription app for macOS
+      - name: awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        icon: fab fa-github
+        description: A collection of MCP servers
   - name: 设计资源
     icon: fas fa-palette
     sites:
