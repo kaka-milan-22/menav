@@ -24,6 +24,10 @@ categories:
         icon: fab fa-github
         description: A simple and secure command-line tool for file encryption and decryption using AES-256-CBC algorithm with password-based key derivation.
         url: 'https://github.com/kaka-milan-22/aes_cli'
+      - name: Kind Reminder
+        icon: fab fa-github
+        description: 单机自动化任务编排引擎，定时执行Shell/Webhook/Notification步骤
+        url: 'https://github.com/kaka-milan-22/kind-reminder'
   - name: star
     icon: fas fa-star
     sites:
