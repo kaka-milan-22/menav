@@ -229,6 +229,10 @@ categories:
         url: https://github.com/punkpeye/awesome-mcp-servers
         icon: fab fa-github
         description: A collection of MCP servers
+      - name: Agent Skills
+        url: https://skills.sh/
+        icon: fas fa-robot
+        description: AI Agent技能目录
   - name: 设计资源
     icon: fas fa-palette
     sites:
