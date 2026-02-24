@@ -233,6 +233,10 @@ categories:
         url: https://skills.sh/
         icon: fas fa-robot
         description: AI Agent技能目录
+      - name: agent-vault
+        url: https://github.com/botiverse/agent-vault
+        icon: fab fa-github
+        description: Keep your secrets hidden from AI agents.
   - name: 设计资源
     icon: fas fa-palette
     sites:
