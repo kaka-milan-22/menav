@@ -237,6 +237,10 @@ categories:
         url: https://github.com/botiverse/agent-vault
         icon: fab fa-github
         description: Keep your secrets hidden from AI agents.
+      - name: open-source-mac-os-apps
+        url: https://github.com/serhii-londar/open-source-mac-os-apps
+        icon: fab fa-github
+        description: Awesome list of open source applications for macOS
   - name: 设计资源
     icon: fas fa-palette
     sites:
