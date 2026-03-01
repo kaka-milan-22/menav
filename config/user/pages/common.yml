@@ -244,7 +244,12 @@ categories:
       - name: ClawHub
         url: https://clawhub.ai/
         icon: fas fa-robot
-        description: AI Agent 平台
+        #XS|        description: AI Agent 平台
+  #MQ|      - name: awesome-bash
+  #VV|        url: https://github.com/awesome-lists/awesome-bash
+  #NP|        icon: fab fa-github
+  #XS|        description: A curated list of delightful Bash scripts and resources.
+  #MQ|  - name: 设计资源
   - name: 设计资源
     icon: fas fa-palette
     sites:
