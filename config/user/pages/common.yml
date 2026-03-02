@@ -244,7 +244,11 @@ categories:
       - name: ClawHub
         url: https://clawhub.ai/
         icon: fas fa-robot
-        #XS|        description: AI Agent 平台
+        description: AI Agent 平台
+      - name: SkillsMP
+        url: https://skillsmp.com/
+        icon: fas fa-robot
+        description: AI Agent技能市场
   #MQ|      - name: awesome-bash
   #VV|        url: https://github.com/awesome-lists/awesome-bash
   #NP|        icon: fab fa-github
