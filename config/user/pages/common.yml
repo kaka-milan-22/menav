@@ -249,6 +249,10 @@ categories:
         url: https://skillsmp.com/
         icon: fas fa-robot
         description: AI Agent技能市场
+      - name: Open Source Mac Apps - Indie Goodies
+        url: https://indiegoodies.com/awesome-open-source-mac-apps
+        icon: fab fa-apple
+        description: 开源 Mac 应用精选目录
   #MQ|      - name: awesome-bash
   #VV|        url: https://github.com/awesome-lists/awesome-bash
   #NP|        icon: fab fa-github
