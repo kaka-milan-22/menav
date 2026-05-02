@@ -253,6 +253,10 @@ categories:
         url: https://indiegoodies.com/awesome-open-source-mac-apps
         icon: fab fa-apple
         description: 开源 Mac 应用精选目录
+      - name: openless
+        url: https://github.com/appergb/openless
+        icon: fab fa-github
+        description: 按住快捷键说话，松开即得 AI 润色后的文字（macOS/Windows 开源语音输入）
   #MQ|      - name: awesome-bash
   #VV|        url: https://github.com/awesome-lists/awesome-bash
   #NP|        icon: fab fa-github
