@@ -154,10 +154,6 @@ categories:
         url: https://drawnix.com/
         icon: fas fa-chalkboard
         description: 开源白板工具
-      - name: QubitTool Text Diff
-        url: https://qubittool.com/tools/text-diff
-        icon: fas fa-code-compare
-        description: 在线文本对比工具，逐行/逐词/逐字符高亮差异
   - name: 云服务平台
     icon: fas fa-cloud
     sites:
