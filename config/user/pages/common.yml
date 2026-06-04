@@ -58,11 +58,6 @@ categories:
         url: https://app.hydration.net/trade/swap
         icon: fab fa-Hydration
         description: An Ocean of Liquidity
-      - name: Virtual Private Network
-        url: https://restless-water-ece9.kakacn.workers.dev/
-        icon: fas fa-mask
-        forceIconMode: manual
-        description: 匿名网络服务
       - name: Kaka Blog
         url: https://blog.kakacn.com/
         faviconUrl: https://blog.kakacn.com/favicon.ico
